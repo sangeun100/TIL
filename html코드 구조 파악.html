@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 인코딩 방식 설정 -->
+    <meta charset="UTF-8">
+     <!--랜더링 방식 설정-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--반응형 웹과 관련된-->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>내 사이트</title>
+    <style>
+        h1 {
+            color : red;
+        }
+    </style>
+</head>
+<!-- 실제로 나타나는 부분 -->
+<body> 
+    <h1>안녕하세요.</h1>
+    <script>
+        // 클릭이벤트 생성, h1 클릭하면 파란색으로 글자색 바꾸기
+        const tag = document.querySelector("h1");
+        tag.addEventListener("click", () => {
+            tag.style.color = "blue";
+        });
+    </script>
+</body>
+</html>
