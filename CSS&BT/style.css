@@ -1,0 +1,11 @@
+/* 각 html 태그 마다 기본적으로 적용돼 있는 css 속성들을 무력화 시키고
+내가 의도한 대로만 개발을 하겠다라는 기본 설정 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: 10px;
+  }

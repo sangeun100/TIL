@@ -1,0 +1,25 @@
+h3 {
+    color: red;
+}
+
+/* class 접근시 .찍어줌 */
+.blue{
+    color: blue;
+}
+
+/* id 접근시 # */
+#green {
+    color: green;
+}
+
+/* 속성 접근시 [] */
+[href="https://www.google.com"] {
+    background-color: red;
+}
+[href="https://www.naver.com"] {
+    background-color: green;
+}
+
+p:hover{
+  background-color: black;  
+}

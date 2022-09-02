@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+ /* 테두리와 컨텐츠 사이 여백을 padding
+    border 바깥의 여백 margin
+     */
+
+    border: 1px solid black;
+    padding: 10px; 
+    margin: 10px;
+    width: 50%;
+    max-width: 300px;
+    min-width: 50px;
+    height: 100px;
+}
+@font-face {
+    font-family: 'MabinogiClassicR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2207-01@1.0/MabinogiClassicR.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+p {
+    font-family: "MabinogiClassicR", cursive;
+    font-weight: 400;
+    text-align: right;
+}
