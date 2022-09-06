@@ -1,0 +1,26 @@
+div {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+#target {
+    background-color: yellow;
+    position: sticky;
+    top: 20px;
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+/* absolout 가장 가까이에 있는 relative 속성 찾음 */
+#target2 {
+    background-color: red;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}

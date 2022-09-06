@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+}
+.nav-container {
+  position: relative;
+  margin: 1rem 1rem 0;
+}
+
+
+.nav-contact {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 0;
+    background-color: white;
+    cursor: pointer;
+}

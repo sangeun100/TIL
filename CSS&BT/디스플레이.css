@@ -1,0 +1,10 @@
+/* 박스모델로 적용하고 싶으면 block, div */
+div {
+    width: 100px;
+    display: inline-block;
+}
+
+span {
+    width: 100px;
+    display: block;
+}
