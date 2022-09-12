@@ -12,6 +12,7 @@
       content="동네코딩, 맛집지도, 유튜버맛집, 맛집유튜버"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="map.css" />
   </head>
 
   <body>
@@ -30,14 +31,14 @@
                 <div class="category-container">
                     <h2 class="category-title">맛집지도 카테고리를 선택해보세요</h2>
                     <div class="category-list">
-                       <button class="category-item">한식</button>
-                       <button class="category-item">중식</button>
-                       <button class="category-item">일식</button>
-                       <button class="category-item">양식</button>
-                       <button class="category-item">분식</button>
-                       <button class="category-item">고기</button>
-                       <button class="category-item">회/해산물</button>
-                       <button class="category-item">기타</button>
+                       <button class="category-item" id="korea">한식</button>
+                       <button class="category-item" id="china">중식</button>
+                       <button class="category-item" id="japan">일식</button>
+                       <button class="category-item" id="america">양식</button>
+                       <button class="category-item" id="wheat">분식</button>
+                       <button class="category-item" id="meat">고기</button>
+                       <button class="category-item" id="shshi">회/해산물</button>
+                       <button class="category-item" id="etc">기타</button>
                     </div>
                 </div>
             </div>
@@ -47,7 +48,19 @@
         
         <!-- 카카오지도 -->  
     </main>
-    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=f2d1796fc6d496bd78ea39f7f6d2b4c2"></script>
+
+    <div class="infowindow">
+      <div class="infowindow-img-container">
+        <img src="" alt="" class="infowindow-img">
+      </div>
+      <div class="infowindow-body">
+        <h5 class="infowindow-title">할머니집</h5>
+        <p class="infowindow-address">서울특별시 중구 명동3길 42</p>
+        <a href="/img/흰둥.jpg" class="infowindow-btn" target="_blank"></a>
+      </div>
+    </div>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=f2d1796fc6d496bd78ea39f7f6d2b4c2&libraries=services"></script>
+    <!-- <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=f2d1796fc6d496bd78ea39f7f6d2b4c2"></script> -->
     <script src="script.js"></script>
   </body>
 </html>

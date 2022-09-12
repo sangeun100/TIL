@@ -33,6 +33,7 @@ html {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  color: #7D78FF;
 }
 .nav-title {
   font-size: 3rem;
@@ -43,6 +44,7 @@ html {
   background: none;
   cursor: pointer;
   font-family: inherit;
+  color: #7D78FF;
 }
 .category-title {
   font-size: 3.5rem;
